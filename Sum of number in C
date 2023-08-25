@@ -1,6 +1,6 @@
 #include<stdio.h>    
 int main(){    
-int x=0,y=0,z=0,result=0;  
+int x=0,y=0,z=0,c=0,result=0;  
   
 printf("enter first number:");  
 scanf("%d",&x);  
@@ -8,8 +8,9 @@ printf("enter second number:");
 scanf("%d",&y); 
 printf("Enter third number: ");
 scanf("%d", &z);
-  
-result=x+y+z;  
+printf("Enter fourth number: ");
+scanf("%d", &c);  
+result=x+y+z+c;  
 printf("sum of 3 numbers:%d ",result);  
   
 return 0;  
