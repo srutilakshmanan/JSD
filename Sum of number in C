@@ -8,9 +8,9 @@ printf("enter second number:");
 scanf("%d",&y); 
 printf("Enter third number: ");
 scanf("%d", &z);
-  
+ printf("I am doin great") ;
 result=x+y+z;  
 printf("sum of 3 numbers:%d ",result);  
-  
+   printf("I am doin great") ;
 return 0;  
 }    
